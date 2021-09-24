@@ -1,0 +1,13 @@
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Data.deps.json
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Data.dll
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Data.pdb
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Business.dll
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Business.pdb
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.csproj.AssemblyReference.cache
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.AssemblyInfoInputs.cache
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.AssemblyInfo.cs
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.csproj.CoreCompileInputs.cache
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.csproj.CopyComplete
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.dll
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.pdb
