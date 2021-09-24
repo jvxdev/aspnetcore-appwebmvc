@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "automapper.extensions.microsoft.dependencyinjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "microsoft.entityframeworkcore": {
               "target": "Package",
               "version": "[5.0.10, )"
