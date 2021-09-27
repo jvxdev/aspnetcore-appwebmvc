@@ -27,7 +27,6 @@ namespace Integro.App.ViewModels
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
 
-        [NotMapped]
         public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }
 }

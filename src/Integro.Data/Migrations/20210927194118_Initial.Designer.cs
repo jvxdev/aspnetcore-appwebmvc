@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Integro.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    [Migration("20210927155511_Initial")]
+    [Migration("20210927194118_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

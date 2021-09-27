@@ -1,10 +1,10 @@
 C:\dev\AppMvcCompleta\src\Integro.Business\bin\Debug\netcoreapp3.1\Integro.Business.deps.json
 C:\dev\AppMvcCompleta\src\Integro.Business\bin\Debug\netcoreapp3.1\Integro.Business.dll
 C:\dev\AppMvcCompleta\src\Integro.Business\bin\Debug\netcoreapp3.1\Integro.Business.pdb
-C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.csproj.AssemblyReference.cache
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.AssemblyInfoInputs.cache
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.AssemblyInfo.cs
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.csproj.CoreCompileInputs.cache
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.dll
 C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.pdb
+C:\dev\AppMvcCompleta\src\Integro.Business\obj\Debug\netcoreapp3.1\Integro.Business.csproj.AssemblyReference.cache
