@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Views\Enderecos\" />
+    <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
 </Project>
