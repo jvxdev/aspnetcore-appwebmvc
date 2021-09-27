@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,6 +15,10 @@ namespace Integro.App.ViewModels
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Este campo não pode ficar em branco!")]
+        [DisplayName("Fornecedor")]
+        public Guid FornecedorId { get; set; }
+
+        [Required(ErrorMessage = "Este campo não pode ficar em branco!")]
         [StringLength(200, ErrorMessage = "Este campo deve ter entre {2} a {1} caracteres!", MinimumLength = 2)]
         public string Nome { get; set; }
 
@@ -22,6 +27,7 @@ namespace Integro.App.ViewModels
         [StringLength(1000, ErrorMessage = "Este campo deve ter entre {2} a {1} caracteres!", MinimumLength = 2)]
         public string Descricao { get; set; }
 
+        [DisplayName("Imagem do produto")]
         public IFormFile ImagemUpload { get; set; }
 
         public string Imagem { get; set; }
@@ -36,5 +42,7 @@ namespace Integro.App.ViewModels
         public bool Ativo { get; set; }
 
         public FornecedorViewModel Fornecedor { get; set; }
+
+        public IEnumerable<FornecedorViewModel> Fornecedores { get; set; }
     }
 }

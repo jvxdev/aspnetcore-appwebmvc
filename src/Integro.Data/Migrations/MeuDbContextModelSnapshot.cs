@@ -47,7 +47,7 @@ namespace Integro.Data.Migrations
                     b.Property<Guid>("FornecedorId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Logradoura")
+                    b.Property<string>("Logradouro")
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 

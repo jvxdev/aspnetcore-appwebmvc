@@ -21,13 +21,13 @@ using Integro.App;
 #nullable disable
 #nullable restore
 #line 2 "C:\dev\AppMvcCompleta\src\Integro.App\Views\_ViewImports.cshtml"
-using Integro.App.Models;
+using Integro.App.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e7c5abcb8481a945f64a8b87f72d1644c0cd5084", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"25bc9756412964e85d8e98ef6e2f26e7b00985f6", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

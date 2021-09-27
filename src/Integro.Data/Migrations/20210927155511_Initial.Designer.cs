@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Integro.Data.Migrations
 {
     [DbContext(typeof(MeuDbContext))]
-    [Migration("20210924181920_Initial")]
+    [Migration("20210927155511_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,7 +49,7 @@ namespace Integro.Data.Migrations
                     b.Property<Guid>("FornecedorId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Logradoura")
+                    b.Property<string>("Logradouro")
                         .IsRequired()
                         .HasColumnType("varchar(200)");
 

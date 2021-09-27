@@ -8,14 +8,14 @@
     <PackageReference Include="microsoft.entityframeworkcore" Version="5.0.10" />
     <PackageReference Include="microsoft.entityframeworkcore.relational" Version="5.0.10" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Integro.Business\Integro.Business.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace Integro.App.ViewsModels
+namespace Integro.App.ViewModels
 {
     public class ErrorViewModel
     {

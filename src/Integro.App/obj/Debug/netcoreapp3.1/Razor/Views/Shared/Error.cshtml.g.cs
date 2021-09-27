@@ -21,13 +21,13 @@ using Integro.App;
 #nullable disable
 #nullable restore
 #line 2 "C:\dev\AppMvcCompleta\src\Integro.App\Views\_ViewImports.cshtml"
-using Integro.App.Models;
+using Integro.App.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e7c5abcb8481a945f64a8b87f72d1644c0cd5084", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"25bc9756412964e85d8e98ef6e2f26e7b00985f6", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

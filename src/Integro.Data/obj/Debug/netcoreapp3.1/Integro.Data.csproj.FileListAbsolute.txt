@@ -11,3 +11,6 @@ C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.cspr
 C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.csproj.CopyComplete
 C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.dll
 C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.pdb
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Data.runtimeconfig.json
+C:\dev\AppMvcCompleta\src\Integro.Data\bin\Debug\netcoreapp3.1\Integro.Data.runtimeconfig.dev.json
+C:\dev\AppMvcCompleta\src\Integro.Data\obj\Debug\netcoreapp3.1\Integro.Data.genruntimeconfig.cache

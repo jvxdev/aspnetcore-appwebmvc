@@ -10,7 +10,7 @@ namespace Integro.Data.Mappings
         {
             builder.HasKey(p => p.Id);
 
-            builder.Property(p => p.Logradoura)
+            builder.Property(p => p.Logradouro)
                 .IsRequired()
                 .HasColumnType("varchar(200)");
 
