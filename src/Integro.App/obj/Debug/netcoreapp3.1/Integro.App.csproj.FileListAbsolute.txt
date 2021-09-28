@@ -453,3 +453,9 @@ C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\libman.json
 C:\dev\AppMvcCompleta\src\Integro.App\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_DetalhesEndereco.cshtml.g.cs
 C:\dev\AppMvcCompleta\src\Integro.App\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\_ListaProdutos.cshtml.g.cs
 C:\dev\AppMvcCompleta\src\Integro.App\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedores\_AtualizarEndereco.cshtml.g.cs
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings - Cópia.Production.Development.json
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings - Cópia.Production.json
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings.Production.Development.json
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings.Production.json
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings.Staging.Development.json
+C:\dev\AppMvcCompleta\src\Integro.App\bin\Debug\netcoreapp3.1\appsettings.Staging.json

@@ -30,4 +30,13 @@
     <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="appsettings - Cópia.Production.Development.json">
+      <DependentUpon>appsettings.Production.Development.json</DependentUpon>
+    </Content>
+    <Content Update="appsettings - Cópia.Production.json">
+      <DependentUpon>appsettings.Production.json</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>
