@@ -37,6 +37,7 @@ namespace Integro.App.ViewModels
         [Required(ErrorMessage = "Este campo não pode ficar em branco!")]
         public decimal Valor { get; set; }
 
+        [DisplayName("Data de cadastro")]
         [ScaffoldColumn(false)]
         public DateTime DataCadastro { get; set; }
 

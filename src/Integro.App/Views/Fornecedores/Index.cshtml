@@ -1,7 +1,8 @@
-﻿@model IEnumerable<Integro.App.ViewModels.FornecedorViewModel>
+﻿@using Integro.App.Extensions
+@model IEnumerable<Integro.App.ViewModels.FornecedorViewModel>
 
 @{
-    ViewData["Title"] = "Página inicial - Fornecedores";
+    ViewData["Title"] = "Fornecedores";
 }
 
 <h1 class="my-4 display-4">@ViewData["Title"]</h1>
@@ -19,9 +20,6 @@
                 @Html.DisplayNameFor(model => model.Documento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TipoFornecedor)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Ativo)
             </th>
             <th></th>
@@ -34,10 +32,7 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Documento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoFornecedor)
+                @this.FormataDocumento(item.TipoFornecedor, item.Documento)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Ativo)
