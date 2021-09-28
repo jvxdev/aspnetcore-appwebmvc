@@ -43,6 +43,7 @@
                 </div>
 
                 <div class="form-group text-right">
+                    <a class="btn btn-secondary" href="javascript:window.history.back();">Voltar</a>
                     <input type="submit" value="Salvar" class="btn btn-primary" />
                 </div>
             </form>
@@ -55,7 +56,7 @@
     <h4 class="display-4 my-4">Endereço</h4>
 </div>
 
-<div>
+<div id="EnderecoTarget">
     <partial name="_DetalhesEndereco" />
 </div>
 
@@ -68,6 +69,22 @@
     <partial name="../Produtos/_ListaProdutos" model="@Model.Produtos" />
 </div>
 
+<div id="myModal" class="modal fade in">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="myModalContent"></div>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+<script>
+    $(document).ready(function () {
+        SetModal();
+    });
+</script>
+
 }
+

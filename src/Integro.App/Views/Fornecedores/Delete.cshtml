@@ -2,7 +2,7 @@
 @model Integro.App.ViewModels.FornecedorViewModel
 
 @{
-    ViewData["Title"] = "Excluir -" + Model.Nome;
+    ViewData["Title"] = "Excluir - " + Model.Nome;
 }
 
 <h1 class="mt-4 display-4 text-center">@ViewData["Title"]</h1>
@@ -36,7 +36,7 @@
     <div class="text-right mb-3">
         <form asp-action="Delete">
             <input type="hidden" asp-for="Id" />
-            <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+            <a class="btn btn-secondary" href="javascript:window.history.back();">Voltar</a>
             <a asp-action="Delete" class="btn btn-danger">Excluir</a>
         </form>
     </div>
