@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WLmEzhUmS2HpHOMdEemd1U0PKQ2gu40I2nEkvQ7bnKVGhe0isGU3u/pWARyZ51pApyFjLMoOEMSdyVm2/LMQ6w==",
+  "dgSpecHash": "I8oS4Sl1KanhPxz05/dMra9Zf0oQvBryyau+RBTGCdqRb92zTIYbXceQ3KZoVpLoMh6haiHKWV/EGwiBsCLsXg==",
   "success": true,
   "projectFilePath": "C:\\dev\\AppMvcCompleta\\src\\Integro.App\\Integro.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joão victor\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\joão victor\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\joão victor\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\joão victor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\joão victor\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.18\\microsoft.aspnetcore.cryptography.internal.3.1.18.nupkg.sha512",
     "C:\\Users\\joão victor\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.18\\microsoft.aspnetcore.cryptography.keyderivation.3.1.18.nupkg.sha512",

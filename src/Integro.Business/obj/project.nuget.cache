@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9F0W0SIOAZlDKtb3hqYY6Qw9OKfeJ/BA1ti+xyqdHAl6cEJsZMRgobwxhksC9ZnSHsMlYAg8YRDqS9mdotz/JQ==",
+  "dgSpecHash": "U/5czUYl6j+AFUoLrohItiD4FoBWAyBzLpu1IL7VVYE8V/g36rm7drY2Z0XUOMdrI7m/lTzRod03Li3K0Wr8wQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\AppMvcCompleta\\src\\Integro.Business\\Integro.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\joão victor\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
