@@ -37,7 +37,7 @@ namespace Integro.App
             services.AddAutoMapper(typeof(Startup));
 
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddRazorPages().AddRazorRuntimeCompilation();
 
             services.AddMvcConfiguration();
 

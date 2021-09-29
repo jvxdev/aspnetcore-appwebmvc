@@ -26,11 +26,13 @@ namespace Integro.App.Controllers
             _mapper = mapper;
         }
 
+        [Route("lista-de-produtos")]
         public async Task<ActionResult> Index()
         {
             return View(_mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterProdutosFornecedores()));
         }
 
+        [Route("dados-do-produto/{id:guid}")]
         public async Task<ActionResult> Details(Guid id)
         {
             var produtoViewModel = await ObterProduto(id);
@@ -40,6 +42,7 @@ namespace Integro.App.Controllers
             return View(produtoViewModel);
         }
 
+        [Route("novo-produto")]
         public async Task<ActionResult> Create()
         {
             var produtoViewModel = await PopularFornecedores(new ProdutoViewModel());
@@ -47,6 +50,7 @@ namespace Integro.App.Controllers
             return View(produtoViewModel);
         }
 
+        [Route("novo-produto")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(ProdutoViewModel produtoViewModel)
@@ -66,6 +70,7 @@ namespace Integro.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [Route("editar-produto/{id:guid}")]
         public async Task<ActionResult> Edit(Guid id)
         {
             var produtoViewModel = await ObterProduto(id);
@@ -75,6 +80,7 @@ namespace Integro.App.Controllers
             return View(produtoViewModel);
         }
 
+        [Route("editar-produto/{id:guid}")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(Guid id, ProdutoViewModel produtoViewModel)
@@ -109,6 +115,7 @@ namespace Integro.App.Controllers
             return RedirectToAction("Index");
         }
 
+        [Route("excluir-produto/{id:guid}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             var produtoViewModel = await ObterProduto(id);
@@ -118,7 +125,8 @@ namespace Integro.App.Controllers
             return View(produtoViewModel);
         }
 
-        [HttpPost]
+        [Route("excluir-produto/{id:guid}")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(Guid id)
         {

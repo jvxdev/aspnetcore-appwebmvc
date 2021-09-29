@@ -17,6 +17,7 @@ namespace Integro.App.ViewModels
 
         [Required(ErrorMessage = "Este campo não pode ficar em branco!")]
         [StringLength(200, ErrorMessage = "Este campo deve ter entre {1} caracteres!", MinimumLength = 2)]
+        [DisplayName("Documento CPF/CNPJ")]
         public string Documento { get; set; }
 
         [DisplayName("Tipo")]
